@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://kit.fontawesome.com/805031c14e.js"></script>
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+  <link href="https://fonts.googleapis.com/css?family=Grenze&display=swap" rel="stylesheet">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>constructor & this</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper amber z-depth-5">
+      <a href="#" class="brand-logo center"><h3>D&D 5ed Spellbook</h3></a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+      </ul>
+    </div>
+  </nav>
+<!-- parallax effect is offline (for an aestetic reasons) -->
+<!-- To bring back parralax un-comment this fragment in a materialize.css -->
+<!-- parallax-container .parallax img  -->
+<div class="main-box">
+	<div class="parallax-container">
+      <div class="parallax"><img src="img/parallax1.jpg"></div>
+    </div>
+	 <div class="carousel">
+		 <div class="card carousel-item z-depth-5" id="acidSplashSpell">
+		    
+		    <div class="card-image waves-effect waves-block waves-light">
+		      <img class="activator"  src="img/img1.jpg">
+		    </div>
+
+		    <div class="card-content amber">
+		      <span class="card-title activator grey-text text-darken-4" id="acidSplashSpell-title">Card Title<i class="material-icons right">more_vert</i></span>
+		      <p id="acidSplashSpell-school"><a href="#">This is a link</a></p>
+		    </div>
+
+		    <div class="card-reveal amber">
+		      <span class="card-title grey-text text-darken-4" id="acidSplashSpell-title-reveal">Card Title<i class="material-icons right">close</i></span>
+		      <p id="acidSplashSpell-lvl">Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="acidSplashSpell-casting">Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="acidSplashSpell-range">Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="acidSplashSpell-components">Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="acidSplashSpell-duration" >Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="acidSplashSpell-description" >Here is some more information about this product that is only revealed once clicked on.</p>
+		    </div>
+		  </div>
+
+
+		 <div class="card carousel-item z-depth-5" id="aidSpell">
+		    
+		    <div class="card-image waves-effect waves-block waves-light">
+		      <img class="activator"  src="img/img2.jpg">
+		    </div>
+
+		    <div class="card-content cyan">
+		      <span class="card-title activator grey-text text-darken-4" id="aidSpell-title">Card Title<i class="material-icons right">more_vert</i></span>
+		      <p id="aidSpell-school"><a href="#">This is a link</a></p>
+		    </div>
+
+		    <div class="card-reveal cyan">
+		      <span class="card-title grey-text text-darken-4" id="aidSpell-title-reveal">Card Title<i class="material-icons right">close</i></span>
+		      <p id="aidSpell-lvl">Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="aidSpell-casting">Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="aidSpell-range">Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="aidSpell-components">Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="aidSpell-duration" >Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="aidSpell-description" >Here is some more information about this product that is only revealed once clicked on.</p>
+		    </div>
+		  </div>
+
+		 <div class="card carousel-item z-depth-5" id="viciousMockerySpell">
+		    
+		    <div class="card-image waves-effect waves-block waves-light">
+		      <img class="activator"  src="img/img5.jpg">
+		    </div>
+
+		    <div class="card-content lime">
+		      <span class="card-title activator grey-text text-darken-4" id="viciousMockerySpell-title">Card Title<i class="material-icons right">more_vert</i></span>
+		      <p id="viciousMockerySpell-school"><a href="#">This is a link</a></p>
+		    </div>
+
+		    <div class="card-reveal lime">
+		      <span class="card-title grey-text text-darken-4" id="viciousMockerySpell-title-reveal">Card Title<i class="material-icons right">close</i></span>
+		      <p id="viciousMockerySpell-lvl">Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="viciousMockerySpell-casting">Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="viciousMockerySpell-range">Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="viciousMockerySpell-components">Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="viciousMockerySpell-duration" >Here is some more information about this product that is only revealed once clicked on.</p>
+		      <p id="viciousMockerySpell-description" >Here is some more information about this product that is only revealed once clicked on.</p>
+		    </div>
+		  </div>
+	 </div>
+
+<div class="parallax-container">
+      <div class="parallax"><img src="img/parallax1.jpg"></div>
+</div>
+
+
+  <nav>
+    <div class="nav-wrapper amber center z-depth-5">
+
+      <h5>Character: Bard Kaiser</h5>
+      <h5>Player: Kanut</h5>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+      </ul>
+    </div>
+  </nav>
+
+</div>
+</body>
+
+<script>
+	//spell constructor
+	function Spell(name, school, lvl, casting, range, components, duration, description) {
+		this.name = name;
+		this.school = school;
+		this.lvl = lvl;
+		this.casting = casting;
+		this.range = range
+		this.components = components;
+		this.duration = duration;
+		this.description = description;
+	} 
+
+	// const animateDead = new spell();
+	const acidSplashSpell = new Spell("Acid Splash","Conjuration","Cantrip","1 action","60 feet","V,S","Instantaneous","You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage. This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).");
+	const aidSpell = new Spell("Aid","Abjuration","2 lvl","1 action","30 feet","V,S,M","8 hours","Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target’s hit point maximum and current hit points increase by 5 for the duration. At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, a target’s hit points increase by an additional 5 for each slot level above 2nd.");
+	const viciousMockerySpell = new Spell("Vicious Mockery","Enchantment", "Cantrip", "1 action ", "60 feet", "V", " Instantaneous","You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a W isdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn. This spell’s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).");
+
+
+	document.getElementById("acidSplashSpell-title").innerHTML =  acidSplashSpell.name;
+	document.getElementById("acidSplashSpell-school").innerHTML =  acidSplashSpell.school;
+	document.getElementById("acidSplashSpell-title-reveal").innerHTML = acidSplashSpell.name; 
+	document.getElementById("acidSplashSpell-lvl").innerHTML = "Spell lvl: " + acidSplashSpell.lvl;
+	document.getElementById("acidSplashSpell-casting").innerHTML = "Casting time:" + acidSplashSpell.casting;
+	document.getElementById("acidSplashSpell-range").innerHTML = "Spell range: " + acidSplashSpell.range;
+	document.getElementById("acidSplashSpell-components").innerHTML = "Spell components: " + acidSplashSpell.components;
+	document.getElementById("acidSplashSpell-duration").innerHTML =  "Spell duration: " + acidSplashSpell.duration;
+	document.getElementById("acidSplashSpell-description").innerHTML =  "Spell description: " +acidSplashSpell.description;
+
+
+	document.getElementById("aidSpell-title").innerHTML =  aidSpell.name;
+	document.getElementById("aidSpell-school").innerHTML =  aidSpell.school;
+	document.getElementById("aidSpell-title-reveal").innerHTML = aidSpell.name; 
+	document.getElementById("aidSpell-lvl").innerHTML = "Spell lvl: " + aidSpell.lvl;
+	document.getElementById("aidSpell-casting").innerHTML = "Casting time:" + aidSpell.casting;
+	document.getElementById("aidSpell-range").innerHTML = "Spell range: " + aidSpell.range;
+	document.getElementById("aidSpell-components").innerHTML =  "Spell components: " +  aidSpell.components;
+	document.getElementById("aidSpell-duration").innerHTML =  "Spell duration: " + aidSpell.duration;
+	document.getElementById("aidSpell-description").innerHTML =  "Spell description: " +aidSpell.description;
+
+
+	document.getElementById("viciousMockerySpell-title").innerHTML =  viciousMockerySpell.name;
+	document.getElementById("viciousMockerySpell-school").innerHTML =  viciousMockerySpell.school;
+	document.getElementById("viciousMockerySpell-title-reveal").innerHTML = viciousMockerySpell.name; 
+	document.getElementById("viciousMockerySpell-lvl").innerHTML = "Spell lvl: " + viciousMockerySpell.lvl;
+	document.getElementById("viciousMockerySpell-casting").innerHTML = "Casting time:" + viciousMockerySpell.casting;
+	document.getElementById("viciousMockerySpell-range").innerHTML = "Spell range: " + viciousMockerySpell.range;
+	document.getElementById("viciousMockerySpell-components").innerHTML =  "Spell components: " +  viciousMockerySpell.components;
+	document.getElementById("viciousMockerySpell-duration").innerHTML =  "Spell duration: " + viciousMockerySpell.duration;
+	document.getElementById("viciousMockerySpell-description").innerHTML =  "Spell description: " +viciousMockerySpell.description;
+
+
+</script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script> $(document).ready(function(){
+    $('.carousel').carousel();
+    $('.parallax').parallax();
+  });
+</script>
+</html>
