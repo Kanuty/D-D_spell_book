@@ -2353,6 +2353,7 @@ audio:not([controls]) {
  */
 img {
   border-style: none;
+
 }
 
 /**
@@ -8362,15 +8363,17 @@ input[type=range]::-ms-thumb {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 400px;
-  -webkit-perspective: 500px;
-          perspective: 500px;
+  height: 600px;
+  -webkit-perspective: 400px;
+          perspective: 400px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-transform-origin: 0% 50%;
           transform-origin: 0% 50%;
 }
-
+.carousel img{
+   max-height: 400px;
+}
 .carousel.carousel-slider {
   top: 0;
   left: 0;
@@ -8391,7 +8394,7 @@ input[type=range]::-ms-thumb {
 .carousel.carousel-slider .carousel-item {
   width: 100%;
   height: 100%;
-  min-height: 400px;
+  min-height: 370px;
   position: absolute;
   top: 0;
   left: 0;
@@ -8410,7 +8413,7 @@ input[type=range]::-ms-thumb {
 .carousel .carousel-item {
   visibility: hidden;
   width: 600px;
-  height: 400px;
+  height: 420px;
   position: absolute;
   top: 0;
   left: 0;
@@ -8418,6 +8421,7 @@ input[type=range]::-ms-thumb {
 
 .carousel .carousel-item > img {
   width: 100%;
+
 }
 
 .carousel .indicators {
